@@ -4,23 +4,17 @@
 
 int main(void)
 {
-
     int inCents, coinCount, a, b, c, i, j, k;
-    
     float changeOwed;
-    
-    
 
     do
     {
     printf("How much change do I owe you? ");
     changeOwed = GetFloat();
-    
     }
     while (changeOwed < 0);
     {
         inCents = round(((changeOwed)*100.0));
-       
     }
     
     a = (inCents % 25);
@@ -34,5 +28,4 @@ int main(void)
     printf("%d\n", coinCount);
     
     return 0;
-
 }
