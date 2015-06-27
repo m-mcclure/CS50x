@@ -26,7 +26,6 @@ int main(int argc, string argv[]) {
             }
             else {
                 int asciiValue = message[i];
-                
                 if (isupper(asciiValue)) {
                    int asciiValPlusKey = (asciiValue + k);
                     if (asciiValPlusKey > 90) {
