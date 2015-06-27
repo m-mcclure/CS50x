@@ -21,7 +21,6 @@ int main(int argc, string argv[]) {
             else if (ispunct(message[i])) {
                 printf("%c", message[i]);
             }
-            
             else if (isspace(message[i])) {
                 printf(" ");
             }
@@ -51,7 +50,6 @@ int main(int argc, string argv[]) {
                     }
                 }
             }
-            
         }
         printf("\n");
         return 0;
